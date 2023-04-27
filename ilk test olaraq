@@ -1,0 +1,56 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNiXhCh1d4BVPjunsBzvvxC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rafaelbayramov/birthday/blob/main/ilk%20test%20olaraq\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mRH1_Uk06ia4",
+        "outputId": "3eaff331-73d7-4cf0-f709-36a056cf1e4c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your birth year:1988\n",
+            "35\n"
+          ]
+        }
+      ],
+      "source": [
+        "birth_year=input('Enter your birth year:')\n",
+        "age=2023-int(birth_year)\n",
+        "print(age)"
+      ]
+    }
+  ]
+}
